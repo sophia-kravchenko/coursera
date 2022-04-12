@@ -1,0 +1,88 @@
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-4 {
+        width: 50%;
+        float: left;
+      }
+      .col-lg-tablet{
+       width: 100%;
+       float: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-lg-4{
+        width: 100%;
+        float: left;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.row{
+    width: 100%;
+}
+
+.container{
+    position: relative;
+    top:60px;
+    margin: 15px; 
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+h1, .title {
+    text-align: center;
+}
+
+.card, .title {
+    border: 1px solid black;
+}
+
+.card {
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    width: 33%;
+    top: 0;
+    right: 0;
+    font-size: larger;
+    padding: 5px 0;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.color1 {
+    background-color: rgb(205, 155, 153);
+}
+
+.color2 {
+    background-color: rgb(180, 77, 72);
+    color: white;
+}
+
+.color3 {
+    background-color: rgb(226, 209, 159);
+}
